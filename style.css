@@ -1,3 +1,9 @@
+:root{
+  --cor-fundo: #111;
+  --cor-destaque: #e21;
+}
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -5,7 +11,7 @@ body {
   gap: 60px;
   justify-items: center;
   margin-top: 60px;
-  background-color: #f7f7f7;
+  background-color: var(--cor-fundo);
 }
 
 img {
@@ -41,6 +47,12 @@ p {
   justify-items: center;
 }
 
+header h1{
+  color: var(--cor-destaque);
+  font-size: 3rem;
+}
+
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -59,7 +71,7 @@ p {
 }
 
 .menu a:hover {
-  border-color: #e21;
+  border-color: var(--cor-destaque);
 }
 
 .conteudo {
