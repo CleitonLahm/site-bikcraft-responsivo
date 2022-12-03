@@ -12,14 +12,14 @@
 
 media (prefers-color-scheme: dark) {
   :root {
-    --cor-destaque: #e21;
-    --cor-destaque-escura: #900;
-    --fundo1: #111111;
-    --fundo2: #000000;
-    --texto: #ffffff;
-    --cor-subtitulo: rgba(255, 255, 255, 0.2)
-    --onda: url("./img/onda-escura.svg");
-  }
+  --cor-destaque: #e21;
+  --cor-destaque-escura: #900;
+  --fundo1: #111111;
+  --fundo2: #000000;
+  --texto: #ffffff;
+  --cor-subtitulo: rgba(255, 255, 255, 0.2)
+  --onda: url("./img/onda-escura.svg");
+}
 }
 
 body {
